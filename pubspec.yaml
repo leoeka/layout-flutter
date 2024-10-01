@@ -1,0 +1,21 @@
+name: my_flutter_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_layout: ^1.1.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/gambar-pemandangan-pinggir-pantai.jpg  # Pastikan jalur ini benar
